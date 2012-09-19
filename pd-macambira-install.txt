@@ -1,4 +1,5 @@
 #!/bin/sh
+# Run me with ./pd-macambira-install.txt
 # ---------------------------------------------------------------------------------
 # Instructions for installing pd-macambira
 # 
