@@ -1,5 +1,5 @@
 #!/bin/sh
-# Run me with ./pd-macambira-install.txt
+# Run me with sudo ./pd-macambira-install.txt
 # ---------------------------------------------------------------------------------
 # Instructions for installing pd-macambira
 # 
@@ -127,10 +127,10 @@ cd hacktable
 # -----------
 # you can now run/test the color detection code by opening/testing the patches
 #
-pd-extended color-detection-demo.pd  
+#pd-extended color-detection-demo.pd  ###################
 #
 # if this works then open/test color-detection-demo-blob.pd
-pd-extended color-detection-demo-blob.pd  
+#pd-extended color-detection-demo-blob.pd  #################
 
 # Extra-official color detection - currently just use the official, it has our
 # contribs. This will only work if you clone Gem from us instead of the
@@ -142,7 +142,7 @@ pd-extended color-detection-demo-blob.pd
 
 # -------
 # Remaining repositories
-git clone git@github.com:rfabbri/pd-macambira-utils.git
+#git clone git@github.com:rfabbri/pd-macambira-utils.git################
 
 # repositorio with diverse stuff from gilson beck (code to modulate audio samples,
 # audio samples themselves, etc)
@@ -151,7 +151,7 @@ git clone git@github.com:rfabbri/pd-macambira-utils.git
 # git clone https://github.com/gilsonbeck/beck-repo.git
 
 # we currently use rfabbri's fork
-git clone git@github.com:rfabbri/beck-repo.git
+# git clone git@github.com:rfabbri/beck-repo.git################
 
 # ---------------------------------------------------------------------------------
 # Updating the code
